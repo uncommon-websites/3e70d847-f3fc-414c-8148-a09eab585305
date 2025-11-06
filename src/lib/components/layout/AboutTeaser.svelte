@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
+		name: "Dr. Sarah Chen",
 		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		image: "/generated/image-a-professional-portrait-of-a-mental-heal.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"I lost a colleague to suicide during my residency. I'll never forget realizing that someone in our mental health program felt they had nowhere to turn. That day changed everything for me. Now, we're making sure people have the skills to recognize the signs and the confidence to intervene."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
